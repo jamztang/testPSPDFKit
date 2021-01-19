@@ -6,14 +6,15 @@
 //
 
 import UIKit
+import PSPDFKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        setupPDFKit()
+
         return true
     }
 
@@ -31,6 +32,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+    private func setupPDFKit() {
+        #if canImport(PSPDFKit)
+        //swiftlint:disable line_length
+        // Activate PSPDFKit for com.goodnotesapp.x
+        guard let license = ProcessInfo.processInfo.environment["PSPDFKit.LicenseKey"] else {
+            fatalError("Please add license key in your schema")
+        }
+        PSPDFKit.SDK.setLicenseKey(license)
+        //swiftlint:enable line_length
+        #endif
+    }
 
 }
 

@@ -9,6 +9,29 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>testPSPDFKit_withLicense.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1AA588A925B6B6A80062B295</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1AA588BF25B6B6AA0062B295</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1AA588CA25B6B6AA0062B295</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
