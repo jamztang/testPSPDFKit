@@ -10,9 +10,9 @@ There're mainly three status:
 3. success
 
 
-![1](/images/failedtoimport)
-![2](/images/nolicense)
-![3](/images/success)
+![1](/images/failedtoimport.png)
+![2](/images/nolicense.png)
+![3](/images/success.png)
 
 In my testing, after I filled in the license when running on an M1 device simulator, it properly shows success state
 
