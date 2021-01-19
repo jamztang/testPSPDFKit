@@ -1,0 +1,18 @@
+PODS:
+  - PSPDFKit (10.1.0):
+    - PSPDFKit/Core (= 10.1.0)
+  - PSPDFKit/Core (10.1.0)
+
+DEPENDENCIES:
+  - PSPDFKit (from `ThirdParty/pspdfkit_stripped_ui_10.1.0.podspec`)
+
+EXTERNAL SOURCES:
+  PSPDFKit:
+    :podspec: ThirdParty/pspdfkit_stripped_ui_10.1.0.podspec
+
+SPEC CHECKSUMS:
+  PSPDFKit: be1d749f891fb991a6272da077b5520b043f3010
+
+PODFILE CHECKSUM: d9fa87cc7bde8ff112aece957d4b879a4e9c7982
+
+COCOAPODS: 1.10.0
