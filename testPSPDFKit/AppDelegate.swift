@@ -6,7 +6,9 @@
 //
 
 import UIKit
+#if canImport(PSPDFKit)
 import PSPDFKit
+#endif
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
